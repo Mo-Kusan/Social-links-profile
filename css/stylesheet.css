@@ -90,3 +90,31 @@ main {
     margin: 15px 0;
     padding: 15px 0;
 }
+
+@media screen and (max-width: 375px) {
+    p {
+        font-size: 13px;
+    }
+
+    #card {
+        width: 280px;
+        padding: 25px;
+    }
+
+    #avatar {
+        width: 30%;
+    }
+
+    #description {
+        margin-bottom: 20px;
+    }
+
+    #link_list {
+        margin: 0;
+    }
+
+    #link_list a:last-child li {
+        margin-bottom: 0;
+    }
+
+   }
