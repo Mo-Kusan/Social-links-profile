@@ -91,6 +91,11 @@ main {
     padding: 15px 0;
 }
 
+.link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
 @media screen and (max-width: 375px) {
     p {
         font-size: 13px;
