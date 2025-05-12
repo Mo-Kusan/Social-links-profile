@@ -65,7 +65,7 @@ main {
 }
 
 #avatar {
-    width: 25%;
+    width: 30%;
     border-radius: 100px;
 }
 
@@ -96,6 +96,22 @@ main {
     color: black;
 }
 
+.link:hover a{
+    color: black;
+}
+
+#link_list {
+        margin: 0;
+    }
+
+#link_list a {
+    display: block;
+}
+
+#link_list li:last-child {
+        margin-bottom: 0;
+    }
+
 @media screen and (max-width: 375px) {
     p {
         font-size: 13px;
@@ -106,20 +122,7 @@ main {
         padding: 25px;
     }
 
-    #avatar {
-        width: 30%;
-    }
-
     #description {
         margin-bottom: 20px;
     }
-
-    #link_list {
-        margin: 0;
-    }
-
-    #link_list a:last-child li {
-        margin-bottom: 0;
-    }
-
    }
